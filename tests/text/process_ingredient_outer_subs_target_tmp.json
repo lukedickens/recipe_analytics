@@ -1,0 +1,197 @@
+[
+    {
+        "text": " 1 jalapenos or 1 hot banana pepper, seeded and minced",
+        "name": "jalapenos",
+        "quantity_str": "1",
+        "quantity": 1,
+        "substitutions": [
+            {
+                "name": "hot banana pepper",
+                "modifier": "seeded and minced",
+                "quantity_str": "1",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "text": "6 cups arugula or 6 cups Baby Spinach",
+        "name": "arugula",
+        "unit": "cups",
+        "quantity_str": "6",
+        "quantity": 6,
+        "substitutions": [
+            {
+                "name": "baby spinach",
+                "unit": "cups",
+                "quantity_str": "6",
+                "quantity": 6
+            }
+        ]
+    },
+    {
+        "text": "14 cup raspberry vinegar or 14 cup strawberry vinegar",
+        "name": "raspberry vinegar",
+        "unit": "cup",
+        "quantity_str": "14",
+        "quantity": 0.25,
+        "substitutions": [
+            {
+                "name": "strawberry vinegar",
+                "unit": "cup",
+                "quantity_str": "14",
+                "quantity": 0.25
+            }
+        ]
+    },
+    {
+        "text": "500 g damsons (1 lb) or 500 g plums, cleaned and quartered (1 lb)",
+        "name": "damsons ",
+        "parenthetic": [
+            [
+                "1 lb",
+                8,
+                14
+            ]
+        ],
+        "unit": "g",
+        "quantity_str": "500",
+        "quantity": 500,
+        "substitutions": [
+            {
+                "name": "plums",
+                "parenthetic": [
+                    [
+                        "1 lb",
+                        29,
+                        35
+                    ]
+                ],
+                "modifier": "cleaned and quartered",
+                "unit": "g",
+                "quantity_str": "500",
+                "quantity": 500
+            }
+        ]
+    },
+    {
+        "text": "1 teaspoon chervil or 1 teaspoon tarragon",
+        "name": "chervil",
+        "unit": "teaspoon",
+        "quantity_str": "1",
+        "quantity": 1,
+        "substitutions": [
+            {
+                "name": "tarragon",
+                "unit": "teaspoon",
+                "quantity_str": "1",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "text": "Good pinch of ground chili pepper or cayenne (optional)",
+        "name": "good pinch of ground chili pepper",
+        "substitutions": [
+            {
+                "name": "cayenne (optional)"
+            }
+        ]
+    },
+    {
+        "text": "Sunflower or light vegetable oil for deep-frying",
+        "name": "sunflower",
+        "substitutions": [
+            {
+                "name": "light vegetable oil for deep-frying"
+            }
+        ]
+    },
+    {
+        "text": "14 cup raspberry vinegar or 14 cup strawberry vinegar",
+        "name": "raspberry vinegar",
+        "unit": "cup",
+        "quantity_str": "14",
+        "quantity": 0.25,
+        "substitutions": [
+            {
+                "name": "strawberry vinegar",
+                "unit": "cup",
+                "quantity_str": "14",
+                "quantity": 0.25
+            }
+        ]
+    },
+    {
+        "text": "2 tablespoons butter or 2 tablespoons margarine",
+        "name": "butter",
+        "unit": "tablespoons",
+        "quantity_str": "2",
+        "quantity": 2,
+        "substitutions": [
+            {
+                "name": "margarine",
+                "unit": "tablespoons",
+                "quantity_str": "2",
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "text": "1 lb ciabatta or 1 lb country French bread, cut into 16 slices",
+        "name": "ciabatta",
+        "unit": "lb",
+        "quantity_str": "1",
+        "quantity": 1,
+        "substitutions": [
+            {
+                "name": "country french bread",
+                "modifier": "cut into 16 slices",
+                "unit": "lb",
+                "quantity_str": "1",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "text": "8 ounces chevre cheese or 8 ounces fresh goat cheese",
+        "name": "chevre cheese",
+        "unit": "ounces",
+        "quantity_str": "8",
+        "quantity": 8,
+        "substitutions": [
+            {
+                "name": "fresh goat cheese",
+                "unit": "ounces",
+                "quantity_str": "8",
+                "quantity": 8
+            }
+        ]
+    },
+    {
+        "text": "5 ounces raspberry jelly or 5 ounces blackberry jelly or 5 ounces apricot jam or 5 ounces pepper jelly",
+        "name": "raspberry jelly",
+        "unit": "ounces",
+        "quantity_str": "5",
+        "quantity": 5,
+        "substitutions": [
+            {
+                "name": "blackberry jelly",
+                "unit": "ounces",
+                "quantity_str": "5",
+                "quantity": 5
+            },
+            {
+                "name": "apricot jam",
+                "unit": "ounces",
+                "quantity_str": "5",
+                "quantity": 5
+            },
+            {
+                "name": "pepper jelly",
+                "unit": "ounces",
+                "quantity_str": "5",
+                "quantity": 5
+            }
+        ]
+    }
+]

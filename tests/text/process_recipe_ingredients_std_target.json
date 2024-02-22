@@ -1,0 +1,582 @@
+[
+    {
+        "ingredients": [
+            {
+                "text": "600 g kumara (sweet potato)",
+                "name": "kumara",
+                "parenthetic": [
+                    [
+                        "sweet potato",
+                        7,
+                        21
+                    ]
+                ],
+                "unit": "g",
+                "quantity_str": "600",
+                "quantity": 600
+            },
+            {
+                "text": "2 tablespoons olive oil or 2 tablespoons vegetable oil",
+                "name": "olive oil",
+                "unit": "tbsp",
+                "quantity_str": "2",
+                "quantity": 2,
+                "substitutions": [
+                    {
+                        "name": "vegetable oil",
+                        "unit": "tbsp",
+                        "quantity_str": "2",
+                        "quantity": 2
+                    }
+                ]
+            },
+            {
+                "text": "3 teaspoons sweet smoked paprika",
+                "name": "sweet smoked paprika",
+                "unit": "tsp",
+                "quantity_str": "3",
+                "quantity": 3
+            },
+            {
+                "text": "salt",
+                "name": "salt"
+            },
+            {
+                "text": "fresh ground black pepper",
+                "name": "fresh ground black pepper"
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "text": "1 12 cups low sodium chicken broth",
+                "name": "low sodium chicken broth",
+                "unit": "cups",
+                "quantity_str": "1 12",
+                "quantity": 1.5
+            },
+            {
+                "text": "1 tablespoon cornstarch",
+                "name": "cornstarch",
+                "unit": "tbsp",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "3 tablespoons soy sauce",
+                "name": "soy sauce",
+                "unit": "tbsp",
+                "quantity_str": "3",
+                "quantity": 3
+            },
+            {
+                "text": "2 tablespoons balsamic vinegar",
+                "name": "balsamic vinegar",
+                "unit": "tbsp",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "2 tablespoons sake or 2 tablespoons sherry wine",
+                "name": "sake",
+                "unit": "tbsp",
+                "quantity_str": "2",
+                "quantity": 2,
+                "substitutions": [
+                    {
+                        "name": "sherry wine",
+                        "unit": "tbsp",
+                        "quantity_str": "2",
+                        "quantity": 2
+                    }
+                ]
+            },
+            {
+                "text": "1 12 tablespoons sesame oil",
+                "name": "sesame oil",
+                "unit": "tbsp",
+                "quantity_str": "1 12",
+                "quantity": 1.5
+            },
+            {
+                "text": "2 teaspoons sugar",
+                "name": "sugar",
+                "unit": "tsp",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "8 sea bass fillets (6-8 oz.)",
+                "name": "sea bass fillets",
+                "parenthetic": [
+                    [
+                        "6-8 oz.",
+                        17,
+                        26
+                    ]
+                ],
+                "quantity_str": "8",
+                "quantity": 8
+            },
+            {
+                "text": "13 cup sake or 13 cup sherry wine",
+                "name": "sake",
+                "unit": "cups",
+                "quantity_str": "13",
+                "quantity": 0.33,
+                "substitutions": [
+                    {
+                        "name": "sherry wine",
+                        "unit": "cups",
+                        "quantity_str": "13",
+                        "quantity": 0.33
+                    }
+                ]
+            },
+            {
+                "text": "14 cup soy sauce",
+                "name": "soy sauce",
+                "unit": "cups",
+                "quantity_str": "14",
+                "quantity": 0.25
+            },
+            {
+                "text": "4 tablespoons vegetable oil",
+                "name": "vegetable oil",
+                "unit": "tbsp",
+                "quantity_str": "4",
+                "quantity": 4
+            },
+            {
+                "text": "6 tablespoons peeled minced fresh ginger",
+                "name": "peeled minced fresh ginger",
+                "unit": "tbsp",
+                "quantity_str": "6",
+                "quantity": 6
+            },
+            {
+                "text": "2 large carrots, peeled and cut into 2 inch long matchstick-sized strips",
+                "name": "large carrots",
+                "modifier": "peeled and cut into 2 inch long matchstick-sized strips",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "6 -8 ounces fresh shiitake mushrooms, stemmed and caps thinly sliced",
+                "name": "fresh shiitake mushrooms",
+                "modifier": "stemmed and caps thinly sliced",
+                "unit": "oz",
+                "quantity_str": "6 -8",
+                "quantity": [
+                    6,
+                    8
+                ]
+            },
+            {
+                "text": "6 green onions, cut into 2 inch long matchstick-sized strips",
+                "name": "green onions",
+                "modifier": "cut into 2 inch long matchstick-sized strips",
+                "quantity_str": "6",
+                "quantity": 6
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "text": "1 4-pound pumpkin, or 3 to 4 pounds of yams or sweet potatoes",
+                "name": "pumpkin",
+                "modifier": "or 3 to 4 pounds of yams or sweet potatoes",
+                "unit": "lb",
+                "quantity_str": "1 4-"
+            },
+            {
+                "text": "2 1/2 quarts water",
+                "name": "water",
+                "unit": "qt",
+                "quantity_str": "2 1/2",
+                "quantity": 2.5
+            },
+            {
+                "text": "2 pounds dark brown sugar",
+                "name": "dark brown sugar",
+                "unit": "lb",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "2 cinnamon sticks",
+                "name": "cinnamon sticks",
+                "quantity_str": "2",
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "text": "2 cups uncooked elbow macaroni",
+                "name": "uncooked elbow macaroni",
+                "unit": "cups",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "14 cup butter (i use margarine) or 14 cup margarine (i use margarine)",
+                "name": "butter",
+                "parenthetic": [
+                    [
+                        "i use margarine",
+                        7,
+                        24
+                    ]
+                ],
+                "unit": "cups",
+                "quantity_str": "14",
+                "quantity": 0.25,
+                "substitutions": [
+                    {
+                        "name": "margarine",
+                        "parenthetic": [
+                            [
+                                "i use margarine",
+                                10,
+                                27
+                            ]
+                        ],
+                        "unit": "cups",
+                        "quantity_str": "14",
+                        "quantity": 0.25
+                    }
+                ]
+            },
+            {
+                "text": "14 cup all-purpose flour",
+                "name": "all-purpose flour",
+                "unit": "cups",
+                "quantity_str": "14",
+                "quantity": 0.25
+            },
+            {
+                "text": "12 teaspoon salt",
+                "name": "salt",
+                "unit": "tsp",
+                "quantity_str": "12",
+                "quantity": 0.5
+            },
+            {
+                "text": "14 teaspoon pepper",
+                "name": "pepper",
+                "unit": "tsp",
+                "quantity_str": "14",
+                "quantity": 0.25
+            },
+            {
+                "text": "14 teaspoon ground mustard (I use a squirt of yellow mustard)",
+                "name": "ground mustard",
+                "parenthetic": [
+                    [
+                        "i use a squirt of yellow mustard",
+                        15,
+                        49
+                    ]
+                ],
+                "unit": "tsp",
+                "quantity_str": "14",
+                "quantity": 0.25
+            },
+            {
+                "text": "14 teaspoon Worcestershire sauce",
+                "name": "worcestershire sauce",
+                "unit": "tsp",
+                "quantity_str": "14",
+                "quantity": 0.25
+            },
+            {
+                "text": "2 cups milk",
+                "name": "milk",
+                "unit": "cups",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "8 ounces extra-sharp cheddar cheese, cubed",
+                "name": "extra-sharp cheddar cheese",
+                "modifier": "cubed",
+                "unit": "oz",
+                "quantity_str": "8",
+                "quantity": 8
+            },
+            {
+                "text": "18 cup Italian seasoned breadcrumbs",
+                "name": "italian seasoned breadcrumbs",
+                "unit": "cups",
+                "quantity_str": "18",
+                "quantity": 18
+            },
+            {
+                "text": "1 tablespoon grated parmesan cheese",
+                "name": "grated parmesan cheese",
+                "unit": "tbsp",
+                "quantity_str": "1",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "text": "6 (4 1/2 to 5 1/2-ounce) chicken cutlets, pounded thin",
+                "name": "chicken cutlets",
+                "modifier": "pounded thin",
+                "quantity_str": "6",
+                "quantity": 6
+            },
+            {
+                "text": "Salt and freshly ground black pepper",
+                "name": "salt and freshly ground black pepper"
+            },
+            {
+                "text": "6 sage leaves",
+                "name": "sage leaves",
+                "quantity_str": "6",
+                "quantity": 6
+            },
+            {
+                "text": "3 ounces grated fontina cheese",
+                "name": "grated fontina cheese",
+                "unit": "oz",
+                "quantity_str": "3",
+                "quantity": 3
+            },
+            {
+                "text": "3 tablespoons olive oil",
+                "name": "olive oil",
+                "unit": "tbsp",
+                "quantity_str": "3",
+                "quantity": 3
+            },
+            {
+                "text": "1 garlic clove, halved",
+                "name": "garlic clove",
+                "modifier": "halved",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "1/2 cup white wine",
+                "name": "white wine",
+                "unit": "cups",
+                "quantity_str": "1/2",
+                "quantity": 0.5
+            },
+            {
+                "text": "1 (28-ounce) can whole San Marzano tomatoes",
+                "name": "san marzano tomatoes",
+                "unit": "28 oz cans",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "1/2 teaspoon red pepper flakes",
+                "name": "red pepper flakes",
+                "unit": "tsp",
+                "quantity_str": "1/2",
+                "quantity": 0.5
+            },
+            {
+                "text": "1 teaspoon salt",
+                "name": "salt",
+                "unit": "tsp",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "1/2 teaspoon freshly ground black pepper",
+                "name": "freshly ground black pepper",
+                "unit": "tsp",
+                "quantity_str": "1/2",
+                "quantity": 0.5
+            }
+        ],
+        "equipment": [
+            {
+                "text": "toothpicks"
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "text": "3/4 cup all-purpose flour",
+                "name": "all-purpose flour",
+                "unit": "cups",
+                "quantity_str": "3/4",
+                "quantity": 0.75
+            },
+            {
+                "text": "1/2 teaspoon baking powder",
+                "name": "baking powder",
+                "unit": "tsp",
+                "quantity_str": "1/2",
+                "quantity": 0.5
+            },
+            {
+                "text": "1/8 teaspoon kosher salt",
+                "name": "kosher salt",
+                "unit": "tsp",
+                "quantity_str": "1/8",
+                "quantity": 0.125
+            },
+            {
+                "text": "2 large eggs",
+                "name": "large eggs",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "1/3 cup sugar",
+                "name": "sugar",
+                "unit": "cups",
+                "quantity_str": "1/3",
+                "quantity": 0.3333333333333333
+            },
+            {
+                "text": "2 tablespoons orange blossom honey",
+                "name": "orange blossom honey",
+                "unit": "tbsp",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "2 teaspoons vanilla extract",
+                "name": "vanilla extract",
+                "unit": "tsp",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "1/2 teaspoon finely grated orange zest",
+                "name": "finely grated orange zest",
+                "unit": "tsp",
+                "quantity_str": "1/2",
+                "quantity": 0.5
+            },
+            {
+                "text": "5 tablespoons unsalted butter, melted, cooled, plus more for molds",
+                "name": "unsalted butter",
+                "modifier": "melted, cooled, plus more for molds",
+                "unit": "tbsp",
+                "quantity_str": "5",
+                "quantity": 5
+            }
+        ],
+        "equipment": [
+            {
+                "text": "one 16-cookie madeleine pan with 3x2\" molds"
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "text": "1 1/4 cups corn syrup",
+                "name": "corn syrup",
+                "unit": "cups",
+                "quantity_str": "1 1/4",
+                "quantity": 1.25
+            },
+            {
+                "text": "1 cup sugar",
+                "name": "sugar",
+                "unit": "cups",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "1 tablespoon water",
+                "name": "water",
+                "unit": "tbsp",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "1 tablespoon white vinegar",
+                "name": "white vinegar",
+                "unit": "tbsp",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "1 teaspoon butter",
+                "name": "butter",
+                "unit": "tsp",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "1/2 teaspoon vanilla and/or mint extract",
+                "name": "vanilla and/or mint extract",
+                "unit": "tsp",
+                "quantity_str": "1/2",
+                "quantity": 0.5
+            }
+        ],
+        "equipment": [
+            {
+                "text": "candy thermometer"
+            },
+            {
+                "text": "silicone baking mat"
+            }
+        ]
+    },
+    {
+        "ingredients": [
+            {
+                "text": "5 small oranges, peeled, seeded, and sliced",
+                "name": "small oranges",
+                "modifier": "peeled, seeded, and sliced",
+                "quantity_str": "5",
+                "quantity": 5
+            },
+            {
+                "text": "2 kiwi fruits, peeled and sliced",
+                "name": "kiwi fruits",
+                "modifier": "peeled and sliced",
+                "quantity_str": "2",
+                "quantity": 2
+            },
+            {
+                "text": "1 (6 ounce) jar maraschino cherries, drained",
+                "name": "maraschino cherries",
+                "modifier": "drained",
+                "unit": "6 oz jars",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "1 cup orange-flavored liqueur",
+                "name": "orange-flavored liqueur",
+                "unit": "cups",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "1 teaspoon anise seed",
+                "name": "anise seed",
+                "unit": "tsp",
+                "quantity_str": "1",
+                "quantity": 1
+            },
+            {
+                "text": "12 cup granulated sugar",
+                "name": "granulated sugar",
+                "unit": "cups",
+                "quantity_str": "12",
+                "quantity": 0.5
+            }
+        ]
+    }
+]

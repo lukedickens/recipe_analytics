@@ -1,0 +1,8 @@
+spacy
+numpy
+scipy
+inflect
+mysql
+pandas
+matplotlib
+levenshtein

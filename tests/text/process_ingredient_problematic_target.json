@@ -1,0 +1,16 @@
+[
+    {
+        "text": "1 garlic clove, halved",
+        "name": "garlic clove",
+        "modifier": "halved",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "2\" piece of chorizo",
+        "name": "piece of chorizo",
+        "unit": "in",
+        "quantity_str": "2",
+        "quantity": 2
+    }
+]

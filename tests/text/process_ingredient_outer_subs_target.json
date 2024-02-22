@@ -1,0 +1,189 @@
+[
+    {
+        "text": "12 cup butter or 12 cup margarine, melted",
+        "name": "butter",
+        "unit": "cups",
+        "quantity_str": "12",
+        "quantity": 0.5,
+        "substitutions": [
+            {
+                "name": "margarine, melted",
+                "unit": "cups",
+                "quantity_str": "12",
+                "quantity": 0.5
+            }
+        ]
+    },
+    {
+        "text": "3 tablespoons extra virgin olive oil or 3 tablespoons vegetable oil",
+        "name": "extra virgin olive oil",
+        "unit": "tbsp",
+        "quantity_str": "3",
+        "quantity": 3,
+        "substitutions": [
+            {
+                "name": "vegetable oil",
+                "unit": "tbsp",
+                "quantity_str": "3",
+                "quantity": 3
+            }
+        ]
+    },
+    {
+        "text": "1 teaspoon fresh ginger root juice or 1 teaspoon vinaigrette",
+        "name": "fresh ginger root juice",
+        "unit": "tsp",
+        "quantity_str": "1",
+        "quantity": 1,
+        "substitutions": [
+            {
+                "name": "vinaigrette",
+                "unit": "tsp",
+                "quantity_str": "1",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "text": "2 12 cups half-and-half or 2 12 cups light cream",
+        "name": "half-and-half",
+        "unit": "cups",
+        "quantity_str": "2 12",
+        "quantity": 2.5,
+        "substitutions": [
+            {
+                "name": "light cream",
+                "unit": "cups",
+                "quantity_str": "2 12",
+                "quantity": 2.5
+            }
+        ]
+    },
+    {
+        "text": "1 lb sweet Italian sausage or 1 lb hot Italian sausage",
+        "name": "sweet italian sausage",
+        "unit": "lb",
+        "quantity_str": "1",
+        "quantity": 1,
+        "substitutions": [
+            {
+                "name": "hot italian sausage",
+                "unit": "lb",
+                "quantity_str": "1",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "text": "3 12 lbs mini smoked link sausage or 3 12 lbs hot dogs",
+        "name": "mini smoked link sausage",
+        "unit": "lb",
+        "quantity_str": "3 12",
+        "quantity": 3.5,
+        "substitutions": [
+            {
+                "name": "hot dogs",
+                "unit": "lb",
+                "quantity_str": "3 12",
+                "quantity": 3.5
+            }
+        ]
+    },
+    {
+        "text": "1 teaspoon lemon juice or 1 teaspoon vanilla",
+        "name": "lemon juice",
+        "unit": "tsp",
+        "quantity_str": "1",
+        "quantity": 1,
+        "substitutions": [
+            {
+                "name": "vanilla",
+                "unit": "tsp",
+                "quantity_str": "1",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "text": "1 lb pumpkin, chopped or 1 lb butternut squash",
+        "name": "pumpkin",
+        "modifier": "chopped",
+        "unit": "lb",
+        "quantity_str": "1",
+        "quantity": 1,
+        "substitutions": [
+            {
+                "name": "butternut squash",
+                "unit": "lb",
+                "quantity_str": "1",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "text": "1 teaspoon vanilla extract, or 1-2 tablespoons bourbon",
+        "name": "vanilla extract",
+        "unit": "tsp",
+        "quantity_str": "1",
+        "quantity": 1,
+        "substitutions": [
+            {
+                "name": "bourbon",
+                "unit": "tbsp",
+                "quantity_str": "1-2",
+                "quantity": [
+                    1,
+                    2
+                ]
+            }
+        ]
+    },
+    {
+        "text": "1 tablespoon dill or 1 tablespoon sweet relish",
+        "name": "dill",
+        "unit": "tbsp",
+        "quantity_str": "1",
+        "quantity": 1,
+        "substitutions": [
+            {
+                "name": "sweet relish",
+                "unit": "tbsp",
+                "quantity_str": "1",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "text": "2 lbs ground lamb or 2 lbs ground beef",
+        "name": "ground lamb",
+        "unit": "lb",
+        "quantity_str": "2",
+        "quantity": 2,
+        "substitutions": [
+            {
+                "name": "ground beef",
+                "unit": "lb",
+                "quantity_str": "2",
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "text": "chopped fresh oregano or italian parsley leaves",
+        "name": "chopped fresh oregano",
+        "substitutions": [
+            {
+                "name": "italian parsley leaves"
+            }
+        ]
+    },
+    {
+        "text": "grilled focaccia or turkish style bread",
+        "name": "grilled focaccia",
+        "substitutions": [
+            {
+                "name": "turkish style bread"
+            }
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+*pyc
+*png
+__pycache__
+scratch
+.ipynb_checkpoints
+notebooks
+ucl-mysql-server.info

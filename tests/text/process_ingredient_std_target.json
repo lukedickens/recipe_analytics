@@ -1,0 +1,232 @@
+[
+    {
+        "text": "2 cups creamy natural peanut butter",
+        "name": "creamy natural peanut butter",
+        "unit": "cups",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "1 tablespoon chili powder",
+        "name": "chili powder",
+        "unit": "tbsp",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "2 garlic cloves, diced",
+        "name": "garlic cloves",
+        "modifier": "diced",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "14 cup soy sauce",
+        "name": "soy sauce",
+        "unit": "cups",
+        "quantity_str": "14",
+        "quantity": 0.25
+    },
+    {
+        "text": "1 tablespoon all-purpose flour, rounded",
+        "name": "all-purpose flour",
+        "modifier": "rounded",
+        "unit": "tbsp",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "12 teaspoon salt",
+        "name": "salt",
+        "unit": "tsp",
+        "quantity_str": "12",
+        "quantity": 0.5
+    },
+    {
+        "text": "1 cup water",
+        "name": "water",
+        "unit": "cups",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "8 ounces cream cheese, softened",
+        "name": "cream cheese",
+        "modifier": "softened",
+        "unit": "oz",
+        "quantity_str": "8",
+        "quantity": 8
+    },
+    {
+        "text": "1-1/2 cups oil",
+        "name": "oil",
+        "unit": "cups",
+        "quantity_str": "1-1/2",
+        "quantity": [
+            1,
+            0.5
+        ]
+    },
+    {
+        "text": "2 tablespoons sour cream",
+        "name": "sour cream",
+        "unit": "tbsp",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "1 tsp Honey (or sugar)",
+        "name": "honey",
+        "parenthetic": [
+            [
+                "or sugar",
+                6,
+                16
+            ]
+        ],
+        "unit": "tsp",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "2 tablespoons psyllium",
+        "name": "psyllium",
+        "unit": "tbsp",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "1 large carrot, chopped",
+        "name": "large carrot",
+        "modifier": "chopped",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 tsp Sugar",
+        "name": "sugar",
+        "unit": "tsp",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "13 cup soy sauce",
+        "name": "soy sauce",
+        "unit": "cups",
+        "quantity_str": "13",
+        "quantity": 0.33
+    },
+    {
+        "text": "1/2 cup sliced red onions",
+        "name": "sliced red onions",
+        "unit": "cups",
+        "quantity_str": "1/2",
+        "quantity": 0.5
+    },
+    {
+        "text": "2 teaspoons allspice",
+        "name": "allspice",
+        "unit": "tsp",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "1 cup cheddar cheese, shredded",
+        "name": "cheddar cheese",
+        "modifier": "shredded",
+        "unit": "cups",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 onion, finely diced",
+        "name": "onion",
+        "modifier": "finely diced",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "200 grams Bread flour",
+        "name": "bread flour",
+        "unit": "g",
+        "quantity_str": "200",
+        "quantity": 200
+    },
+    {
+        "text": "1 c. cream of chicken soup",
+        "name": "cream of chicken soup",
+        "unit": "cups",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1/4 cup unsweetened coconut flakes, or more as needed",
+        "name": "unsweetened coconut flakes",
+        "modifier": "or more as needed",
+        "unit": "cups",
+        "quantity_str": "1/4",
+        "quantity": 0.25
+    },
+    {
+        "text": "1/4 cup chopped onion",
+        "name": "chopped onion",
+        "unit": "cups",
+        "quantity_str": "1/4",
+        "quantity": 0.25
+    },
+    {
+        "text": "2 large eggs, separated",
+        "name": "large eggs",
+        "modifier": "separated",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "1 lemon, cut into 8 wedges and seeded",
+        "name": "lemon",
+        "modifier": "cut into 8 wedges and seeded",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "2 Tablespoons Flour",
+        "name": "flour",
+        "unit": "tbsp",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "1 (20 ounce) package frozen southern style hash brown potatoes",
+        "name": "frozen southern style hash brown potatoes",
+        "unit": "20 oz packages",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "6 slices tomato",
+        "name": "tomato",
+        "unit": "slices",
+        "quantity_str": "6",
+        "quantity": 6
+    },
+    {
+        "text": "cracked black pepper",
+        "name": "cracked black pepper"
+    },
+    {
+        "text": "1 teaspoon Vanilla Extract",
+        "name": "vanilla extract",
+        "unit": "tsp",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "2 can cream of mushroom soup - (10 3/4 ounce ea) undiluted",
+        "name": "cream of mushroom soup",
+        "modifier": "undiluted",
+        "parenthetic": "TODO Needs populating",
+        "unit": "cans",
+        "quantity_str": "2",
+        "quantity": 2
+    }
+]

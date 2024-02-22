@@ -1,0 +1,297 @@
+[
+    {
+        "text": "salt & pepper to taste"
+    },
+    {
+        "text": "1 tablespoon canola oil (more or less as needed)",
+        "name": "canola oil ",
+        "parenthetic": [
+            [
+                "more or less as needed",
+                11,
+                35
+            ]
+        ],
+        "unit": "tablespoon",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1/4 teaspoon ground red pepper",
+        "name": "ground red pepper",
+        "unit": "teaspoon",
+        "quantity_str": "1/4",
+        "quantity": 0.25
+    },
+    {
+        "text": "2500 ml Water",
+        "name": "water",
+        "unit": "ml",
+        "quantity_str": "2500",
+        "quantity": 2500
+    },
+    {
+        "text": "1 Tablespoon Orange Zest",
+        "name": "orange zest",
+        "unit": "tablespoon",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 clove garlic minced",
+        "name": "garlic minced",
+        "unit": "clove",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1/2 cup flour",
+        "name": "flour",
+        "unit": "cup",
+        "quantity_str": "1/2",
+        "quantity": 0.5
+    },
+    {
+        "text": "4 Tablespoons Honey",
+        "name": "honey",
+        "unit": "tablespoons",
+        "quantity_str": "4",
+        "quantity": 4
+    },
+    {
+        "text": "1 12 teaspoons salt (table salt)",
+        "name": "salt ",
+        "parenthetic": [
+            [
+                "table salt",
+                5,
+                17
+            ]
+        ],
+        "unit": "teaspoons",
+        "quantity_str": "1 12",
+        "quantity": 1.5
+    },
+    {
+        "text": "1 cup macadamia nuts, chopped",
+        "name": "macadamia nuts",
+        "modifier": "chopped",
+        "unit": "cup",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "18 teaspoon black pepper",
+        "name": "black pepper",
+        "unit": "teaspoon",
+        "quantity_str": "18",
+        "quantity": 18
+    },
+    {
+        "text": "1 (400 g) can kidney beans, drained and rinsed",
+        "name": "kidney beans",
+        "modifier": "drained and rinsed",
+        "unit": "can",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "12 lb mushroom, sliced",
+        "name": "mushroom",
+        "modifier": "sliced",
+        "unit": "lb",
+        "quantity_str": "12",
+        "quantity": 0.5
+    },
+    {
+        "text": "2 tbsp. rice vinegar",
+        "name": "rice vinegar",
+        "unit": "tbsp.",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "1 cup powdered sugar",
+        "name": "powdered sugar",
+        "unit": "cup",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1/2 cup marshmallows miniature",
+        "name": "marshmallows miniature",
+        "unit": "cup",
+        "quantity_str": "1/2",
+        "quantity": 0.5
+    },
+    {
+        "text": "2 tablespoons brown sugar",
+        "name": "brown sugar",
+        "unit": "tablespoons",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "1 cup powdered milk",
+        "name": "powdered milk",
+        "unit": "cup",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 (14 ounce) can fat-free evaporated milk",
+        "name": "fat-free evaporated milk",
+        "unit": "14 ounce can",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 teaspoon salt",
+        "name": "salt",
+        "unit": "teaspoon",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1/2 tsp. Balsamic vinegar",
+        "name": "balsamic vinegar",
+        "unit": "tsp.",
+        "quantity_str": "1/2",
+        "quantity": 0.5
+    },
+    {
+        "text": "1 12 cups pretzel sticks, broken in one-inch pieces",
+        "name": "pretzel sticks",
+        "modifier": "broken in one-inch pieces",
+        "unit": "cups",
+        "quantity_str": "1 12",
+        "quantity": 1.5
+    },
+    {
+        "text": "1 onion, sliced",
+        "name": "onion",
+        "modifier": "sliced",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 egg egg whites lightly beaten with egg",
+        "name": "egg egg whites lightly beaten with egg",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "kosher salt"
+    },
+    {
+        "text": "1 tablespoon lemon juice",
+        "name": "lemon juice",
+        "unit": "tablespoon",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "23 cup cooked brown rice",
+        "name": "cooked brown rice",
+        "unit": "cup",
+        "quantity_str": "23",
+        "quantity": 0.67
+    },
+    {
+        "text": "2 (16 ounce) cans whole cranberry sauce",
+        "name": "cranberry sauce",
+        "unit": "16 ounce cans",
+        "quantity_str": "2",
+        "quantity": 2
+    },
+    {
+        "text": "1 lb ground beef",
+        "name": "ground beef",
+        "unit": "lb",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 each eggs",
+        "name": "each eggs",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 12 lbs schwan's country sausage patties, thawed (12 patties)",
+        "name": "schwan's country sausage patties",
+        "parenthetic": [
+            [
+                "12 patties",
+                41,
+                53
+            ]
+        ],
+        "modifier": "thawed",
+        "unit": "lbs",
+        "quantity_str": "1 12",
+        "quantity": 1.5
+    },
+    {
+        "text": "1 cup carrot, finely chopped",
+        "name": "carrot",
+        "modifier": "finely chopped",
+        "unit": "cup",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 (16 ounce) bag coleslaw mix",
+        "name": "coleslaw mix",
+        "unit": "16 ounce bag",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "3 med Onions, thinly sliced",
+        "name": "med onions",
+        "modifier": "thinly sliced",
+        "quantity_str": "3",
+        "quantity": 3
+    },
+    {
+        "text": "14 cup apple cider vinegar",
+        "name": "apple cider vinegar",
+        "unit": "cup",
+        "quantity_str": "14",
+        "quantity": 0.25
+    },
+    {
+        "text": "16 fresh basil leaves, torn into small pieces",
+        "name": "fresh basil leaves, torn into small pieces",
+        "quantity_str": "16",
+        "quantity": 16
+    },
+    {
+        "text": "4 teaspoons chili powder",
+        "name": "chili powder",
+        "unit": "teaspoons",
+        "quantity_str": "4",
+        "quantity": 4
+    },
+    {
+        "text": "1 teaspoon cinnamon",
+        "name": "cinnamon",
+        "unit": "teaspoon",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "1 Camembert cheese",
+        "name": "camembert cheese",
+        "quantity_str": "1",
+        "quantity": 1
+    },
+    {
+        "text": "2 pounds red-skinned new potatoes",
+        "name": "red-skinned new potatoes",
+        "unit": "pounds",
+        "quantity_str": "2",
+        "quantity": 2
+    }
+]
