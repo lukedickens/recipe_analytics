@@ -22,8 +22,8 @@ from repurposing.mysql.insert import insert_ingredients_from
 from repurposing.mysql.insert import insert_all_ingredients
 from repurposing.mysql.insert import insert_all_constituents
 
-from repurposing.mysql.filter import filter_ingredients_to_table
-from repurposing.mysql.filter import filter_recipes_to_table
+from repurposing.mysql.filter import filter_ingredients_by_name
+from repurposing.mysql.filter import filter_recipes_by_constituent_ingredient_counts
 
 from repurposing.file_io.paths import get_rawpaths
 from repurposing.file_io.paths import get_procpaths
@@ -90,14 +90,14 @@ def main(option, user, password, db_name=DB_NAME,
         create_ingredient_counts(cnx, cursor)
 
     if option == 'filter_ingredient_counts':    
-        filter_ingredients_to_table(
+        filter_ingredients_by_name(
             cnx, cursor,
             constituents_table='filtered_constituents',
             ingredients_table_to='filtered_ingredient_counts',
             ingredients_table_from='ingredients')
 
     if option == 'filter_recipes':
-        filter_recipes_to_table(
+        filter_recipes_by_constituent_ingredient_counts(
                 cnx, cursor, threshold=None,
                 ingredient_counts_table='filtered_ingredient_counts',
                 recipe_table_from='recipes',
