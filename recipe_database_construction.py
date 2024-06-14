@@ -76,7 +76,7 @@ def main(option, user, password, db_name=DB_NAME,
             input_subdir, maxid=max_ifile_id, minid=min_ifile_id)
     else:
         ifpaths = get_rawpaths(
-            input_subdir, maxid=max_ifile_id, minid=min_ifile_id)
+            maxid=max_ifile_id, minid=min_ifile_id)
     # insert recipes this means the title, url and id
     if option == 'insert_recipes'  or option == 'create_all':
         insert_all_recipes(cnx, cursor, ifpaths)
