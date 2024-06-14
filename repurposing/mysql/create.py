@@ -35,6 +35,19 @@ def use_database(cnx, cursor, db_name=DB_NAME):
 
 ## creating tables order matters
 TABLES = OrderedDict()
+
+# as we start to work with different information sources:
+# original recipes, datasets, 3rd party inference, homegrown inference
+# crowdsourced contribution, we want to keep track of where
+# our information originates from.
+# This table stores an id for each source, where inference is concerned
+# we may need to keep track of what inference, where crowdsourcing
+# contributions are concerned we may want to keep track of contributors
+TABLES["information_sources"] = """
+    CREATE TABLE information_sources(
+        short_name VARCHAR(32) PRIMARY KEY,
+        text TEXT);"""
+
 TABLES["recipes"] = """
     CREATE TABLE recipes(
         recipe_id INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -105,17 +118,6 @@ TABLES["instructions"] = """
         PRIMARY KEY (recipe_id, step),
         FOREIGN KEY(recipe_id) REFERENCES recipes(recipe_id));"""
 
-# as we start to work with different information sources:
-# original recipes, datasets, 3rd party inference, homegrown inference
-# crowdsourced contribution, we want to keep track of where
-# our information originates from.
-# This table stores an id for each source, where inference is concerned
-# we may need to keep track of what inference, where crowdsourcing
-# contributions are concerned we may want to keep track of contributors
-TABLES["information_sources"] = """
-    CREATE TABLE information_sources(
-        short_name VARCHAR(32) PRIMARY KEY,
-        text TEXT);"""
 
 
 # contexts can be one of a number of types: recipe, group or constraint.
@@ -199,7 +201,6 @@ def create_tables(
     """
     table_names = get_table_names_list(
         table_names, exclude_table_names)
-    table_names = table_names[::-1]    
     print(f"Attempting to create table names: {table_names}")
     for table_name in table_names:
         table_description = tables[table_name]
@@ -230,11 +231,15 @@ def create_ingredient_counts(cnx, cursor):
     cursor.execute(command)
 
 def get_table_names_list(table_names, exclude_table_names=None):
-#    if table_names is None:
-#        # use the reverse order of the created tables
-#        table_names = [key for key in TABLES.keys()][::-1]
-    if type(table_names) is str:
-        table_names = table_names.split(',')
+    default_list = [key for key in TABLES.keys()]
+    if table_names is None:
+        # if None then create all the tables specified in the TABLES dictionary
+        # these appear in order so that foreign key constraints can be 
+        # specified
+        table_names = default_list
+    elif type(table_names) is str:
+        unordered_table_names =  table_names.split(',')
+        table_names = [name for name in default_list if name in unordered_table_names ]
     if not exclude_table_names is None:
         if type(exclude_table_names) is str:
             exclude_table_names = exclude_table_names.split(',')
@@ -274,6 +279,7 @@ def drop_tables(
 #            print("OK")
 
     table_names = get_table_names_list(table_names, exclude_table_names)    
+    table_names = table_names[::-1]    
     for table_name in table_names:
         drop_table(cnx, cursor, table_name, fragile=fragile, verbose=verbose)
 

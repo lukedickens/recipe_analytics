@@ -61,7 +61,8 @@ def main(option, user, password, db_name=DB_NAME,
         new_database = True
 
     if option == 'create_tables' or (option == 'create_all' and new_database):
-        print("Creating tables")
+        print("Creating tables:")
+        print(f"{tables_to_create}")
         fragile = not force_create
         create_tables(
             cnx, cursor, table_names=tables_to_create,
