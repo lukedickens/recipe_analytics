@@ -1,6 +1,8 @@
 import mysql.connector
 import json
 
+from repurposing.mysql.create import safe_create_indices
+
 MAX_LEN_NAME = 128
 
 sql_insert_recipe = f"""
@@ -50,9 +52,10 @@ def insert_all_recipes(cnx, cursor, ifpaths, **kwargs):
 
     # now create indices after the fact to avoid slowing inserts
     try:
-        create_recipe_name_index = \
-            "CREATE INDEX recipe_name_idx ON recipes(recipe_name)"
-        cursor.execute(create_recipe_name_index)
+        safe_create_indices(cursor, [("recipes", "recipe_name")]
+#        create_recipe_name_index = \
+#            "CREATE INDEX recipe_name_idx ON recipes(recipe_name)"
+#        cursor.execute(create_recipe_name_index)
 #        create_recipe_lid_index = \
 #            "CREATE INDEX recipe_lid_idx ON recipes(lid)"
 #        cursor.execute(create_recipe_name_index)

@@ -202,8 +202,8 @@ def filter_constituents_by_recipe(
 
 def filter_ingredients_by_name(
         cnx, cursor,
-        from_table_name='ingredient_counts',
-        to_table_name='filtered_ingredient_counts',
+        ingredients_table_from='ingredient_counts',
+        ingredients_table_to='filtered_ingredient_counts',
         select_what = '*',
         where_conditions=WHERE_INGR_NAME_GOOD, 
         fragile=True, verbose=False):
@@ -214,11 +214,11 @@ def filter_ingredients_by_name(
     condition
     """
     sql_select = f"""
-        SELECT {select_what} FROM {from_table_name}
+        SELECT {select_what} FROM {ingredients_table_from}
             WHERE {where_conditions}
         """
     sql_create = f"""
-        CREATE TABLE {to_table_name} AS {sql_select}"""
+        CREATE TABLE {ingredients_table_to} AS {sql_select}"""
     if verbose:
         print(f"running:\n{sql_create}")
     try:
@@ -236,11 +236,11 @@ def filter_ingredients_by_name(
         if verbose:
             print("OK")
     sql_create_index_primary = f"""
-        ALTER TABLE {to_table_name} ADD PRIMARY KEY (ingredient_id)"""
+        ALTER TABLE {ingredients_table_to} ADD PRIMARY KEY (ingredient_id)"""
     cursor.execute(sql_create_index_primary)
     cnx.commit()
     sql_create_index_count = f"""
-        CREATE INDEX count ON {to_table_name} (count)"""
+        CREATE INDEX count ON {ingredients_table_to} (count)"""
     cursor.execute(sql_create_index_count)
     cnx.commit()
 

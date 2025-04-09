@@ -43,8 +43,8 @@ def main(
     # errors
     filter_ingredients_by_name(
             cnx, cursor,
-            from_table_name=ingredient_counts_table,
-            to_table_name=filtered_ingredient_counts_table,
+            ingredients_table_from=ingredient_counts_table,
+            ingredients_table_to=filtered_ingredient_counts_table,
             select_what = '*',
             fragile=False, verbose=True)
 

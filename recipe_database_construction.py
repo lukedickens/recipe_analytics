@@ -93,12 +93,19 @@ def main(option, user, password, db_name=DB_NAME,
     if option == 'create_ingredient_counts' or option == 'create_all':    
         create_ingredient_counts(cnx, cursor)
 
-    if option == 'filter_ingredient_counts':    
+    if option == 'filter_ingredient_names':
+        fragile = not force_create
         filter_ingredients_by_name(
             cnx, cursor,
-            constituents_table='filtered_constituents',
             ingredients_table_to='filtered_ingredient_counts',
-            ingredients_table_from='ingredients')
+            ingredients_table_from='ingredient_counts', fragile=fragile)
+
+#    if option == 'filter_ingredient_counts':    
+#        filter_ingredients_by_name(
+#            cnx, cursor,
+#            constituents_table='filtered_constituents',
+#            ingredients_table_to='filtered_ingredient_counts',
+#            ingredients_table_from='ingredients')
 
     if option == 'filter_recipes':
         filter_recipes_by_constituent_ingredient_counts(

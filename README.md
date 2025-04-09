@@ -3,13 +3,13 @@
 This repository contains various functionality to process the data fro mthe Recipe1M+ dataset and to store this to a mysql database.
 
 
-# Dataset construction and population
+## Dataset construction and population
 
-The primary construction of the database is done by calling the `recipe_database_construction.py` module. This runs with a number of different options which must be done in order or use the `all` option. Below I list these in order.
+The primary construction of the database is done by calling the `recipe_database_construction.py` module. This runs with a number of different options which must be done in order or use the `all` option. These are listed below in order.
 
 ### creating a new database.
 
-You must already have a user accoutn with a password on your mysql database. Then run:
+You must already have a user account with a password on your mysql database. Then run:
 
 ```
 python3 recipe_database_construction.py -u <username> -p '<password>' -o create_database
@@ -137,7 +137,7 @@ It should give something like the following output:
 
 This removes some of the known issues with ingredients to a new table `filtered_ingredient_counts`:
 ```
-python3 recipe_database_construction.py -u <username> -p '<password>' -o create_ingredient_counts
+python3 recipe_database_construction.py -u <username> -p '<password>' -o filter_ingredient_names
 ```
 
 You can check the results of this by logging into mysql and going to the `recipe_substitution` database then running the following query:

@@ -43,8 +43,9 @@ std_unit_aliases = {}
 arbitrary_unit_aliases = {}
 # std_unit_res = 
 std_unit_aliases['in'] = ['inche?s?', 'in', '\"']
+std_unit_aliases['cm'] = ['cms?']
 std_unit_aliases['fl oz'] = ['fl\\.? oz\\.?', 'fluid ounces?']
-std_unit_aliases['pt'] = ['pints?']
+std_unit_aliases['pt'] = ['pints?', 'pts?\\.?']
 std_unit_aliases['qt'] = ['quarts?\\.?', 'qts?\\.?']
 std_unit_aliases['gal'] = ['gals?\\.?', 'gallons?']
 std_unit_aliases['lb'] = ['lbs?\\.?', 'pounds?']
@@ -69,31 +70,39 @@ arbitrary_unit_aliases['barspoons'] = ['barspoons?']
 arbitrary_unit_aliases['batches'] = ['batch(?:es)?']
 arbitrary_unit_aliases['blocks'] = ['blocks?']
 arbitrary_unit_aliases['bottles'] = ['bottles?']
-arbitrary_unit_aliases['boxes'] = ['box{?:es)?']
-arbitrary_unit_aliases['bunches'] = ['bunche?s?']
+arbitrary_unit_aliases['boxes'] = ['box(?:es)?']
+arbitrary_unit_aliases['bunches'] = ['bunche?s?','bn']
 arbitrary_unit_aliases['cans'] = ['cans?\\.?']
-arbitrary_unit_aliases['cloves'] = ['cloves? of']
-arbitrary_unit_aliases['dashes'] = ['dashe?s?']
+arbitrary_unit_aliases['cartons'] = ['cartons?\\.?']
+arbitrary_unit_aliases['cloves'] = ['cloves?', 'cloves? of', 'clvs?\\.?']
+arbitrary_unit_aliases['containers'] = ['containers?\\.?']
+arbitrary_unit_aliases['dashes'] = ['dashe?s?', 'dsh\\.?']
 arbitrary_unit_aliases['drops'] = ['drops?']
+arbitrary_unit_aliases['drizzle'] = ['drizzles?', 'drizzles? of']
 arbitrary_unit_aliases['envelopes'] = ['envelopes?']
+arbitrary_unit_aliases['grinds'] = ['grinds?']
 arbitrary_unit_aliases['handfuls'] = ['handfuls?']
 arbitrary_unit_aliases['heads'] = ['heads?']
 arbitrary_unit_aliases['jars'] = ['jars?']
+arbitrary_unit_aliases['knobs'] = ['knobs?']
 arbitrary_unit_aliases['leaves'] = ['leaf', 'leaves']
 arbitrary_unit_aliases['legs'] = ['legs?']
 arbitrary_unit_aliases['loaves'] = ['loaf', 'loaves']
 arbitrary_unit_aliases['packets'] = ['packets?', 'pkts?\\.?']
 arbitrary_unit_aliases['packages'] = ['packages?', 'pkgs?\\.?']
 arbitrary_unit_aliases['pieces'] = ['pieces?']
-arbitrary_unit_aliases['pinches'] = ['pinche?s?']
+arbitrary_unit_aliases['pinches'] = ['pinche?s?','pchs?\\.?']
 arbitrary_unit_aliases['pouches'] = ['pouche?s?']
 arbitrary_unit_aliases['racks'] = ['racks?']
+arbitrary_unit_aliases['rashers'] = ['rashers?']
 arbitrary_unit_aliases['scoops'] = ['scoops?']
 arbitrary_unit_aliases['sheets'] = ['sheets?']
-arbitrary_unit_aliases['slices'] = ['slices?']
-arbitrary_unit_aliases['sprigs'] = ['sprigs?']
+arbitrary_unit_aliases['slices'] = ['slices?', 'slcs?\\.?']
+arbitrary_unit_aliases['sprigs'] = ['sprigs?', 'sprgs?\\.']
 arbitrary_unit_aliases['stalks'] = ['stalks?']
 arbitrary_unit_aliases['sticks'] = ['sticks?']
+arbitrary_unit_aliases['strips'] = ['strips?']
+arbitrary_unit_aliases['taste'] = ['taste']
 arbitrary_unit_aliases['tins'] = ['tins?']
 arbitrary_unit_aliases['tubs'] = ['tubs?']
 unit_aliases = std_unit_aliases | arbitrary_unit_aliases
@@ -103,9 +112,14 @@ all_unit_res = all_std_unit_res + all_arbitrary_unit_res
 std_unit_res_map = {
     k:re.compile(fr"(?:{'|'.join(aliases)})") \
         for k, aliases in std_unit_aliases.items()}
-arbitrary_unit_res_map = {
-    k:re.compile(fr"(?:{'|'.join(aliases)})") \
-        for k, aliases in arbitrary_unit_aliases.items()}
+arbitrary_unit_res_map = {}
+for k, aliases in arbitrary_unit_aliases.items():
+#    print(f"k, aliases = {(k, aliases)}")
+    arbitrary_unit_res_map[k ] = re.compile(fr"(?:{'|'.join(aliases)})")
+#arbitrary_unit_res_map = {
+#    k:re.compile(fr"(?:{'|'.join(aliases)})") \
+#        for k, aliases in arbitrary_unit_aliases.items()}
+
 unit_res_map = std_unit_res_map | arbitrary_unit_res_map
 
 def unit_belongs_to(unit, unit_res_map):
@@ -624,6 +638,7 @@ def parse_as_juice_of_ingredient(
             name_toks[-1] = inflect_engine.plural(name_toks[-1])
             name = ' '.join(name_toks)
         ingr_dict['name'] = name + ', ' + part
+        ingr_dict['name'] = ingr_dict['name'].strip()
         return ingr_dict
         #print(f"res = {res}")
         #print(f"res.group(0) = {res.group(0)}")

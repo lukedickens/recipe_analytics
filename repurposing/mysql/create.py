@@ -323,3 +323,19 @@ def rename_table(
         if verbose:
             print("OK")
 
+
+# Function to check if an index exists
+def index_exists(cursor, table_name, index_name):
+    cursor.execute(f"SHOW INDEX FROM {table_name} WHERE Key_name = '{index_name}'")
+    return cursor.fetchone() is not None
+
+# Function to create an index
+def create_index(cursor, table_name, column_name, index_name):
+    cursor.execute(f"CREATE INDEX {index_name} ON {table_name}({column_name})")
+    
+    
+def safe_create_indices(cursor, indices):
+    for table_name, column_name in indices:
+        index_name = f'idx_{table_name}_{column_name}'
+        if not index_exists(cursor, table_name, index_name):
+            create_index(cursor, table_name, column_name, index_name)
