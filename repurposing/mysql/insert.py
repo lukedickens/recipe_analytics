@@ -52,7 +52,7 @@ def insert_all_recipes(cnx, cursor, ifpaths, **kwargs):
 
     # now create indices after the fact to avoid slowing inserts
     try:
-        safe_create_indices(cursor, [("recipes", "recipe_name")]
+        safe_create_indices(cursor, [("recipes", "recipe_name")])
 #        create_recipe_name_index = \
 #            "CREATE INDEX recipe_name_idx ON recipes(recipe_name)"
 #        cursor.execute(create_recipe_name_index)

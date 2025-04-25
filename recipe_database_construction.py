@@ -32,7 +32,7 @@ def main(option, user, password, db_name=DB_NAME,
         tables_to_create=None, 
         exclude_tables_to_create=None, 
         force_create=False,
-        input_subdir=None, use_processed_json=False, max_ifile_id=15, min_ifile_id=1):
+        input_subdir=None, max_ifile_id=15, min_ifile_id=1):
     cnx = get_connection(user=user, password=password, db_name=None)
     cursor = cnx.cursor()        
 
@@ -71,12 +71,8 @@ def main(option, user, password, db_name=DB_NAME,
 
     # get file names for input files (will be used for multiple options
     print(f"input_subdir = {input_subdir}")
-    if use_processed_json:
-        ifpaths = get_procpaths(
-            input_subdir, maxid=max_ifile_id, minid=min_ifile_id)
-    else:
-        ifpaths = get_rawpaths(
-            maxid=max_ifile_id, minid=min_ifile_id)
+    ifpaths = get_procpaths(
+        input_subdir, maxid=max_ifile_id, minid=min_ifile_id)
     # insert recipes this means the title, url and id
     if option == 'insert_recipes'  or option == 'create_all':
         insert_all_recipes(cnx, cursor, ifpaths)
@@ -161,9 +157,7 @@ def create_parser():
         help='Maximum input file id for processing')
     parser.add_argument('--min-ifile-id', type=int, default=1,
         help='Minimum input file id for processing')
-    parser.add_argument('--use-processed-json',action='store_true',
-        help='Use processed json files as input')
-    
+
     return parser
 
 if __name__ == '__main__':

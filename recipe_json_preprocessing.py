@@ -12,8 +12,7 @@ from repurposing.file_io.paths import get_procpaths
 
 
 def singlefile_process(ifpath, ofpath):
-    print(f"ifpath = {ifpath}")
-    print(f"ofpath = {ofpath}")
+    print(f"Processing json recipes from {ifpath} and saving to {ofpath}")
     with open(ifpath,'r') as ifile:
         recipe_data = json.load(ifile)
     process_recipes(recipe_data)
